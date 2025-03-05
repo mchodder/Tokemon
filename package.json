@@ -1,0 +1,23 @@
+{
+  "name": "tokemon",
+  "version": "1.0.0",
+  "description": "Cannabis review app",
+  "keywords": [
+    "cannabis"
+  ],
+  "homepage": "https://github.com/mchodder/Tokemon#readme",
+  "bugs": {
+    "url": "https://github.com/mchodder/Tokemon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchodder/Tokemon.git"
+  },
+  "license": "ISC",
+  "author": "Philip R. McDavid-Hodder (The Unprofessional Professional)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
