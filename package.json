@@ -18,6 +18,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "backend": "cd backend && npm run start",
+    "backendClear": "cd backend && rm package-lock.json && rm -rf node_modules",
+    "backendInstall": "cd backend && npm install",
+    "frontend": "cd frontend && npm run start",
+    "frontendClear": "cd frontend && rm package-lock.json && rm -rf node_modules",
+    "frontendInstall": "cd frontend && npm install",
+    "start": "concurrently backend frontend",
+    "allClear": "concurrently backendClear frontendClear",
+    "allInstall": "concurrently backendInstall frontendInstall"
   }
 }
